@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>TopThree - Lucas</title>
+  <style>
+    footer {
+        background-color: rgb(37, 37, 37);
+        color: white;
+        bottom: 0;
+        left: 0;
+        height: 65px;
+        position: fixed;
+        width: 100%;
+    }
+    .principal {
+        display: flex;
+        height: auto;
+        width: 100%;
+        background-color: #ffffff;
+        float:none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+        gap: 20px;
+    }
+    .centro {
+        border-radius: 10%;
+        border: 5px solid #000000;
+    }
+    .ImagemCentro {
+        text-align: center
+    }
+    .Texto {
+      margin-left: 340px;
+      margin-right: 340px;
+      margin-bottom: 100px;
+      margin-top: 20px;
+      padding: 5px;
+      font-size: 100%;
+
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">TopThree</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="carros.html">Top Carros</a></li>
+        <li><a href="motas.html">Top Motas</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="principal">
+    <div class="ImagemCentro">
+      <h1>TopThree - Lucas Manso</h1>
+      <img src="img/carrosmotas.jpg" class="centro">
+    
+      <div class="Texto">
+        <h3>Sobre mim:</h3>
+        <p align="center">
+            &nbsp;&nbsp;&nbsp;&nbsp;Chamo-me Lucas Manso...
+        </p>
+      </div>
+  </div>
+  <footer>
+    <div align="center">
+        <p>Autor: Lucas Manso<br>
+          <a href="lmsmanso@gmail.com">lmsmanso@gmail.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>
